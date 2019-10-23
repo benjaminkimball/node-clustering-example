@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "standard",
+    "plugin:prettier/recommended",
+    "plugin:security/recommended"
+  ],
+  "plugins": ["prettier", "security"]
+}
