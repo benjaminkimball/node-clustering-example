@@ -11,5 +11,5 @@ node scripts/start-cluster.js koa 2
 ```
 
 ```bash
-node scripts/start-cluster.js pokla 4
+node scripts/start-cluster.js polka 4
 ```
