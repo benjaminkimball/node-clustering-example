@@ -1,5 +1,7 @@
 # node-clustering-example
 
+Simple implementation of the Node.js Cluster API.
+
 ```bash
 node scripts/start-cluster.js express
 ```
