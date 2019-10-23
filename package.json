@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "node-clustering-example",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple implementation of the Node.js Cluster API.",
   "scripts": {
     "format": "prettier --write 'lib/**/*.js' 'scripts/**/*.js'",
