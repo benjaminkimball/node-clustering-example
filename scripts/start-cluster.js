@@ -8,7 +8,9 @@ const server = servers[serverType]; // eslint-disable-line security/detect-objec
 if (cluster.isMaster) {
   console.log(`Master ${process.pid} is running`);
 
-  for (let i = 0; i < parseInt(workerCount, 10); i++) {
+  const finalCount = Math.max(parseInt(workerCount, 10), 1);
+
+  for (let i = 0; i < finalCount; i++) {
     cluster.fork();
   }
 
